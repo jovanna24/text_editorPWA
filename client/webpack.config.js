@@ -61,7 +61,7 @@ module.exports = () => {
           exclude: /node_modules/,
           // use babel-loader to use ES6
           use: {
-            leader: 'babel-loader',
+            loader: 'babel-loader',
             options: {
               presets: ['@babel/preset-env'], 
               plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
